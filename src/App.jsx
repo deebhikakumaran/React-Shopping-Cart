@@ -19,7 +19,7 @@ function App() {
     {
         image:iphone_15_pro_max,
         name:'iPhone 15 Pro Max',
-        company:'Apple(IN)',
+        company:'Apple',
         price:[139990,168900],
     },
     {

@@ -16,7 +16,7 @@ function Card({count,setCount,data}) {
                     <div className="text-center">
                         <h5 className="mb-1">{data.name}</h5>
                         <p className='text-muted mb-1'>{data.company}</p>
-                        ${data.price[0]}.00 - ${data.price[1]}.00
+                        ₹{data.price[0]}.00 - ₹{data.price[1]}.00
                         <Rating onClick={handleRating} initialValue={rating} size={25}/>
                     </div>
                 </div>
@@ -33,8 +33,7 @@ function Card({count,setCount,data}) {
                             setCount(count-1)
                             setToggle(!toggle)
                         }}>Remove From Cart</button></div>
-                    }
-                    
+                    }    
                 </div>
             </div>
         </div>
